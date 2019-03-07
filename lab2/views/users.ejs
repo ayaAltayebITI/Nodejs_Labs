@@ -1,0 +1,11 @@
+<%= users %>
+
+
+<table>
+    <% for(var i=0; i < users.length; i++) { %>
+       <tr>
+         <td><%= users[i].name %></td>
+         <td><%= users[i].age %></td>
+       </tr>
+    <% } %>
+    </table>
